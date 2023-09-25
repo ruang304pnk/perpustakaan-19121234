@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeigniter4/appstarter',
-        'pretty_version' => 'v4.4.1',
-        'version' => '4.4.1.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'reference' => 'c328da2a87229197ef85ec5447b2dd9dd7c68752',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'codeigniter4/appstarter' => array(
-            'pretty_version' => 'v4.4.1',
-            'version' => '4.4.1.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => 'c328da2a87229197ef85ec5447b2dd9dd7c68752',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -101,9 +101,9 @@
             'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
-            'pretty_version' => '9.2.28',
-            'version' => '9.2.28.0',
-            'reference' => '7134a5ccaaf0f1c92a4f5501a6c9f98ac4dcc0ef',
+            'pretty_version' => '9.2.29',
+            'version' => '9.2.29.0',
+            'reference' => '6a3a87ac2bbe33b25042753df8195ba4aa534c76',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/php-code-coverage',
             'aliases' => array(),
@@ -146,9 +146,9 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
-            'pretty_version' => '9.6.12',
-            'version' => '9.6.12.0',
-            'reference' => 'a122c2ebd469b751d774aa0f613dc0d67697653f',
+            'pretty_version' => '9.6.13',
+            'version' => '9.6.13.0',
+            'reference' => 'f3d767f7f9e191eab4189abe41ab37797e30b1be',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
