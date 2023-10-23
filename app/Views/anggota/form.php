@@ -1,3 +1,4 @@
+ 
 <form method="post" action="<?=base_url('anggota/simpan')?>">
     <input type="hidden" name="id" value="<?=$data['id'] ?? ''?>" />
     <label>Email</label>
@@ -12,5 +13,5 @@
     <label>Alamat</label>
     <input type="text" name="alamat" value="<?=$data['alamat'] ?? ''?>" />
     <br/>
-    <button>Simpan</button>
+    <button>Simpan</button> 
 </form>
