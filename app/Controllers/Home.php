@@ -5,9 +5,16 @@ namespace App\Controllers;
 class Home extends BaseController
 {
     public function index(): string
-    {
+    { 
         return view('dashboard/pustakawan', [
             'pengguna' => session()->get('pengguna')
-        ]);
+        ]); 
     }
+
+    public function dashboard(){
+        return view('dashboard/utama');
+    }
+
+
+
 }
