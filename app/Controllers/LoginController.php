@@ -19,13 +19,14 @@ class LoginController extends BaseController
     public function masuk(){
         $e = request()->getPost('email');
         $k = request()->getPost('katasandi');
-
+ 
         $m = new PenggunaModel();
         $r = $m->where('email', $e)
                ->where('katasandi', $k)->first();
 
         if($r == null){
-            return "Login gagal";
+            return redirect()->to(base_url('login'))
+                        ->with('pesan', 'Gagal login. Cek kembali email dan password');
         }else{
             session()->set('pengguna', $r);
             return redirect()->to(base_url('/'));
