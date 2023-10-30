@@ -54,11 +54,11 @@
                                 <td>
                                     <img src="<?=base_url('anggota/foto/'.$baris['id'].'.png')?>" style="width:100px" />
                                 </td>
-                                <td> <a href="<?=base_url('anggota/edit/') . $baris['id']  ?>">Edit</a> </td>
+                                <td> <a href="<?=base_url('anggota/edit/') . $baris['id']  ?>" class="btn btn-warning"><i class='fas fa fa-edit'></i> Edit</a> </td>
                                 <td> 
                                     <form onsubmit="return confirm('Yakin ke nak di hapus datanye??')" method="post" action="<?=base_url('anggota/hapus')?>">
                                         <input type="hidden" name="id" value="<?=$baris['id']?>" />
-                                        <button>Hapus</button>
+                                        <button class="btn btn-danger"><i class="fa fas fa-trash"></i> Hapus</button>
                                     </form>    
                                 </td>
                                 
